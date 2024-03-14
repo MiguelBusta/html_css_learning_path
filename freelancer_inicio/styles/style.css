@@ -35,12 +35,19 @@ body {
 }
 
 .main-navigation {
-    padding: 1rem;
     display: flex;
     justify-content: space-between;
 }
 
 .main-navigation a {
+    padding: 1rem;
     color: var(--white);
     text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main-navigation a:hover{
+    background-color: var(--primary);
+    color: var(--dark);
 }
