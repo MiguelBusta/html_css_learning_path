@@ -30,6 +30,8 @@ body {
     margin: 0 auto; /*up and down - left and right */
 }
 
+/* Nav Bar */
+
 .nav-bg {
     background-color: var(--secondary);
 }
@@ -59,4 +61,12 @@ body {
 .main-navigation a:hover{
     background-color: var(--primary);
     color: var(--dark);
+}
+
+/* Image section */
+
+.hero {
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
