@@ -43,6 +43,13 @@ body {
     text-align: center;
 }
 
+.shadow {
+    box-shadow: 0px 5px 15px 0px rgba(51,51,51,0.56);
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
 /* Typography */
 
 h1 {
@@ -114,6 +121,7 @@ h1, h2, h3 {
     background-size: cover;
     height: 450px;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .container-hero{
