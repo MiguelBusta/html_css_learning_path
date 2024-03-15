@@ -45,6 +45,26 @@ h1, h2, h3 {
     margin: 0 auto; /*up and down - left and right */
 }
 
+.button {
+    background-color: var(--secondary);
+    color: var(--white);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .button{
+        width: auto;
+    }
+}
+
 /* Nav Bar */
 
 .nav-bg {
