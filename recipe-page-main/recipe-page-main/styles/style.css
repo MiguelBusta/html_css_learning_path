@@ -1,0 +1,20 @@
+:root {
+    --white: #ffffff;
+    --dark: #212121;
+    --primary: #d8cba4;
+    --secondary: #d2abdb;
+    --gray: #757575;
+    --lightGray: #DFE9F3;
+    --fontColor: #7c513c;
+}
+
+/* Global */
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; /* Hack for box model */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
