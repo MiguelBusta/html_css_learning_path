@@ -146,3 +146,13 @@ h1, h2, h3 {
     display: flex;
     align-items: flex-end;
 }
+
+/* Services */
+
+@media (min-width: 760px) {
+    .services{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1rem;
+    }
+}
