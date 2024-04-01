@@ -1,0 +1,119 @@
+:root {
+    --white: #ffffff;
+    --dark: #212121;
+    --primary: #d8cba4;
+    --secondary: #e1b9ea;
+    --gray: #757575;
+    --lightGray: #DFE9F3;
+    --fontColor: #7c513c;
+}
+
+/* Global */
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; /* Hack for box model */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Young Serif", sans-serif;
+    background-color: var(--primary);
+    padding: 8rem 30rem;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+li {
+    line-height: 4rem;
+    padding-left: 2rem;
+    font-family: "Krub", sans-serif;
+}
+
+p {
+    font-family: "Krub", sans-serif;
+}
+
+/* global classes */
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(186, 184, 184);
+    border: none;
+    margin-top: 2rem;
+}
+
+/* Main container */
+
+.main-container{
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 4rem;
+}
+
+/* First section */
+
+header img{
+    border-radius: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+header p{
+    font-family: "Krub", sans-serif;
+}
+
+/* Preparation time */
+
+.preparation-section {
+    background-color: var(--secondary);
+    border-radius: 14px;
+    padding: 1rem;
+    font-family: "Krub", sans-serif;
+}
+
+.preparation-section h2 {
+    color: #62306e;
+    padding-left: 2rem;
+}
+
+.preparation-section span{
+    font-weight: bold;
+}
+
+/* Ingredients */
+
+.ingredients-section h2 {
+    color: var(--fontColor);
+}
+
+/* Instructions */
+
+.instructions-section span {
+    font-weight: bold;
+}
+
+/* Nutrition */
+
+.nutrition-section td{
+    font-family: "Krub", sans-serif;
+}
