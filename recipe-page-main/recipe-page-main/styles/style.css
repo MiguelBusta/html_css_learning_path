@@ -117,3 +117,8 @@ header p{
 .nutrition-section td{
     font-family: "Krub", sans-serif;
 }
+
+.nutrimental-element {
+    display: flex;
+    justify-content: space-around;
+}
