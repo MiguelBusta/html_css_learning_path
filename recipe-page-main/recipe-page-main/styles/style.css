@@ -22,8 +22,15 @@ html {
 body {
     font-size: 14px;
     font-family: "Young Serif", sans-serif;
-    background-color: var(--primary);
-    padding: 8rem 30rem;
+    margin: 0;
+    
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 8rem 30rem;
+        background-color: var(--primary);
+    }
 }
 
 /* Typography */
@@ -64,18 +71,28 @@ p {
 
 .main-container{
     background-color: var(--white);
-    border-radius: 15px;
-    padding: 4rem;
+}
+
+@media (min-width: 768px) {
+    .main-container {
+        padding: 4rem;
+        border-radius: 15px;
+    }
 }
 
 /* First section */
 
 header img{
-    border-radius: 14px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
+}
+
+@media (min-width: 768px) {
+    header img {
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 14px;
+    }
 }
 
 header p{
@@ -86,9 +103,14 @@ header p{
 
 .preparation-section {
     background-color: var(--secondary);
-    border-radius: 14px;
-    padding: 1rem;
     font-family: "Krub", sans-serif;
+}
+
+@media (min-width: 768px) {
+    .preparation-section {
+        border-radius: 14px;
+        padding: 1rem;
+    }
 }
 
 .preparation-section h2 {
